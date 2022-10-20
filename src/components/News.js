@@ -3,46 +3,7 @@ import NewsItem from './NewsItem'
 
 export class News extends Component {
   articles = [
-{
-"source": {
-"id": "the-verge",
-"name": "The Verge"
-},
-"author": "Richard Lawler",
-"title": "Former Uber security chief found guilty of covering up massive 2016 data breach",
-"description": "Uber paid two hackers $100,000 in Bitcoin to keep a 2016 data breach quiet, and now a jury has convicted former chief security officer Joe Sullivan on two charges for not reporting the incident to authorities.",
-"url": "https://www.theverge.com/2022/10/5/23390063/uber-security-chief-convicted-hack-cover-up-bounty-payment",
-"urlToImage": "https://cdn.vox-cdn.com/thumbor/lh2YBh8cWvn3ARrenXxjolBte4o=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/23932655/acastro_STK106__01.jpg",
-"publishedAt": "2022-10-06T00:25:32Z",
-"content": "Former Uber security chief found guilty of covering up massive 2016 data breach\r\nFormer Uber security chief found guilty of covering up massive 2016 data breach\r\n / Prosecutors claimed Joe Sullivan h… [+4358 chars]"
-},
-{
-"source": {
-"id": "the-verge",
-"name": "The Verge"
-},
-"author": "Emma Roth",
-"title": "Google’s partnering with Coinbase to let cloud customers pay in crypto next year",
-"description": "Starting in 2023, Google will partner with Coinbase to power crypto-based transactions for “select” customers in the Web3 space.",
-"url": "https://www.theverge.com/2022/10/11/23398306/google-coinbase-partnership-crypto-2023-cloud",
-"urlToImage": "https://cdn.vox-cdn.com/thumbor/a1UuqmTXeWu_sDyVAVipeGpIQ0s=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/24016885/STK093_Google_04.jpg",
-"publishedAt": "2022-10-11T14:29:54Z",
-"content": "Googles partnering with Coinbase to let cloud customers pay in crypto next year\r\nGoogles partnering with Coinbase to let cloud customers pay in crypto next year\r\n / The search giant will use Coinbase… [+1913 chars]"
-},
-{
-"source": {
-"id": "reuters",
-"name": "Reuters"
-},
-"author": null,
-"title": "Crypto firm 21Shares lists bitcoin ETP on Nasdaq Dubai - Reuters.com",
-"description": "Crypto investment products firm 21.co said on Wednesday its subsidiary 21Shares AG has listed a bitcoin exchange-traded product on Nasdaq Dubai, making it the Middle East's first physically-backed bitcoin ETP.",
-"url": "https://www.reuters.com/technology/crypto-firm-21shares-lists-bitcoin-etp-nasdaq-dubai-2022-10-12/",
-"urlToImage": "https://www.reuters.com/resizer/e-rtKXHJBMDr3n3yPuzMmaBrXaE=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/62VXJFTHEZNRZM4CO6PTL5CS3A.jpg",
-"publishedAt": "2022-10-12T06:05:00Z",
-"content": "DUBAI, Oct 12 (Reuters) - Crypto investment products firm 21.co said on Wednesday its subsidiary 21Shares AG has listed a bitcoin exchange-traded product on Nasdaq Dubai, making it the Middle East's … [+1642 chars]"
-}
-]
+    {"source":{"id":null,"name":"Yahoo Entertainment"},"author":"Niharika Sharma","title":"Has the pressure to perform turned Ola Electric into a toxic workplace?","description":"The work culture at Softbank-backed Ola Electric is grabbing some attention it didn’t need.","url":"https://finance.yahoo.com/news/pressure-perform-turned-ola-electric-061500165.html","urlToImage":"https://s.yimg.com/uu/api/res/1.2/m0JW4QJVlwqzwV2emWkuyg--~B/aD00MjY7dz02MzY7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/quartz.com/d93ae626bd58f067155a65a3d7041321","publishedAt":"2022-10-19T06:15:00Z","content":"The work culture at Softbank-backed Ola Electric is grabbing some attention it didnt need.\r\nEmployees of Ola Electric have revealed that the work culture at the five-year-old company has turned hosti… [+1941 chars]"},{"source":{"id":null,"name":"India TV News"},"author":"Edited by Vaishali Jain","title":"Sunny Deol Net Worth: Film fees, luxurious houses, fancy cars & brand endorsements| Birthday Special - India TV News","description":"<ol><li>Sunny Deol Net Worth: Film fees, luxurious houses, fancy cars & brand endorsements| Birthday Special  India TV News\r\n</li><li>Sunny Deol, 65 Today, Received The Best Birthday Wish From Brother Bobby  NDTV Movies\r\n</li><li>Why there's much more to Sunn…","url":"https://www.indiatvnews.com/entertainment/masala/sunny-deol-net-worth-film-fees-luxurious-houses-fancy-cars-brand-endorsements-birthday-special-2022-10-19-817280","urlToImage":"https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2022/10/sunny-deol-1666145049.jpg","publishedAt":"2022-10-19T02:05:31Z","content":"Sunny Deol Net Worth: One of the most popular actors in Hindi cinema, Sunny Deol has given Bollywood some of the most iconic films and dialogues. Even if you haven't watched films like Damini, one wh… [+3007 chars]"},{"source":{"id":"cnn","name":"CNN"},"author":"Terry Ward, CNN","title":"Hate cilantro? Love olives? Why some foods are so polarizing","description":"Love it or hate it is pretty clear when it comes to foods that are especially divisive. But the reasons behind what we like and don't like are not always so straightforward.","url":"https://www.cnn.com/travel/article/polarizing-foods-cilantro-olives-scn/index.html","urlToImage":"https://cdn.cnn.com/cnnnext/dam/assets/221014104927-02-polarizing-foods-super-tease.jpg","publishedAt":"2022-10-19T12:39:00Z","content":"(CNN) For as long as she can remember, Isabella Silvers has despised the taste of cilantro.\r\nThe 30-year-old British-Punjabi journalist living in London says the herb has shown up in dishes served at… [+9191 chars]"},{"source":{"id":null,"name":"CNA"},"author":null,"title":"Malaysia election: What we know about the political parties’ strategies so far","description":"The Election Commission will have a special meeting on Thursday to set the dates for nomination and polling day.","url":"https://www.channelnewsasia.com/asia/malaysia-ge15-elections-barisan-nasional-bn-pakatan-harapan-ph-dap-amanah-strategy-politics-3015026","urlToImage":"https://onecms-res.cloudinary.com/image/upload/s--VYyqbAxU--/c_crop,h_563,w_1001,x_35,y_25/f_auto,q_auto/c_fill,g_auto,h_676,w_1200/v1/mediacorp/cna/image/2021/10/19/malaysia_election.jpg?itok=D1IMrmCu","publishedAt":"2022-10-19T10:28:54Z","content":"Barisan Nasional (BN) can no longer simply field any candidate in an election and expect an easy win, said Mr Ismail Sabri, who is also United Malays National Organisations (UMNO) vice-president. \r\nT… [+2521 chars]"},{"source":{"id":null,"name":"Jagran Josh"},"author":"Archana Shandilya","title":"Indian Army Religious Teacher Eligibility Criteria 2022: Age, Educational Qualification, Physical Standard","description":"Indian Army Religious Teacher Eligibility Criteria 2022: Check Junior Commissioned Officer Exam Eligibility Criteria including Age Limit, Educational Qualification, Reservation, and Number of Attempts.","url":"https://www.jagranjosh.com/articles/indian-army-religious-teacher-eligibility-criteria-2022-1666184977-1","urlToImage":"https://img.jagranjosh.com/images/2022/October/19102022/IndianArmyReligiousTeacherEligibility2022.jpg","publishedAt":"2022-10-19T01:09:38Z","content":"Indian Army Religious Teacher Eligibility Criteria 2022: Check Junior Commissioned Officer Exam Eligibility Criteria including Age Limit, Educational Qualification, Reservation, and Number of Attempt… [+5360 chars]"},{"source":{"id":null,"name":"Gadgets360.com"},"author":"Rahul Chettiyar, Akhil Arora, Siddharth Suvarna","title":"Spotify’s Diwali Hub Is Out Now on Android, Blend Playlists With A.R. Rahman and More","description":"Spotify has launched a new festive Diwali hub in India, packing features that connect users to their favourite artists. The hub includes personalised greetings, playlists, and widgets to switch between celebration and devotion-themed tracks. Spotify’s Diwali …","url":"https://gadgets360.com/entertainment/news/spotify-diwali-2022-festival-hub-playlist-blend-ar-rahman-android-ios-iphone-india-3445071","urlToImage":"https://i.gadgets360cdn.com/large/spotify_diwali_hub_1666170464248.jpg","publishedAt":"2022-10-19T09:01:35Z","content":"Spotify has launched a new festive Diwali hub in India. Packed with features that can connect listeners to their favourite artists, the hub includes personalised clips and playlists, tailored to diff… [+2521 chars]"},{"source":{"id":null,"name":"NDTV News"},"author":null,"title":"Days After Escape, Key Accused In Sidhu Moose Wala's Murder Caught","description":"Deepak Tinu is a close aide of gangster Lawrence Bishnoi, also an accused in the murder of Sidhu Moose Wala.","url":"https://www.ndtv.com/india-news/days-after-escape-key-accused-in-sidhu-moose-walas-murder-caught-3445676","urlToImage":"https://c.ndtvimg.com/2022-10/tdr2v40k_deepak-tinu-ndtv_625x300_19_October_22.jpg","publishedAt":"2022-10-19T11:23:56Z","content":"Deepak Tinu is among 24 accused who have been charged in Sidhu Moose Wala's murder.\r\nNew Delhi: Gangster Deepak Tinu, one of the main accused in the Sidhu Moose Wala murder case, who escaped from cus… [+1446 chars]"},{"source":{"id":"cbc-news","name":"CBC News"},"author":"Shireen Ahmed","title":"'We Are Hockey' exhibit goes beyond game, offering important conversations about culture, society","description":"While the recent revelations about the culture of hockey have left us feeling discouraged, this new exhibit was a very deserved breath of fresh air, writes Shireen Ahmed.","url":"https://www.cbc.ca/sports/opinion-we-are-hockey-shireen-ahmed-oct18-1.6620020","urlToImage":"https://i.cbc.ca/1.6620022.1666093610!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_620/we-are-hockey2.jpg","publishedAt":"2022-10-19T08:00:00Z","content":"This is a column by Shireen Ahmed, who writes opinion for CBC Sports. For more information about CBC's Opinion section\r\n, please see the FAQ\r\n.\r\n\"You need to come to the 'We Are Hockey' exhibit,\" my … [+6098 chars]"},{"source":{"id":"the-times-of-india","name":"The Times of India"},"author":"iStock","title":"Your Guide To Hosting Ultimate Diwali Party: Theme, Décor, Cards, Music","description":"The run-up to Diwali is the time for throwing some great parties that will be talked about for a while. And while you bond with family and friends over food and drinks, here are a few tips to amp up the fun. We share some cool ideas for you, you can thank us …","url":"https://economictimes.indiatimes.com/magazines/panache/your-guide-to-hosting-ultimate-diwali-party-theme-dcor-cards-music/its-party-time/slideshow/94966694.cms","urlToImage":"https://img.etimg.com/thumb/msid-94966694,width-1070,height-580,overlay-etpanache/photo.jpg","publishedAt":"2022-10-19T11:42:51Z","content":"19 Oct 2022, 05:10 PM IST\r\nThe run-up to Diwali is the time for throwing some great parties that will be talked about for a while. And while you bond with family and friends over food and drinks, her… [+1234 chars]"},{"source":{"id":"the-times-of-india","name":"The Times of India"},"author":"New York Times","title":"From coconut laddoo to caramel badam burfi: How US sweet shops are gearing up for Diwali","description":"Badam burfi, a rich, fudgy treat made of almonds, milk and sugar, is a classic Indian sweet.","url":"https://economictimes.indiatimes.com/magazines/panache/from-coconut-laddoo-to-caramel-badam-burfi-how-south-asian-sweet-shops-abroad-are-gearing-up-for-diwali/articleshow/94956046.cms","urlToImage":"https://img.etimg.com/thumb/msid-94956431,width-1070,height-580,imgsize-111010,overlay-etpanache/photo.jpg","publishedAt":"2022-10-19T04:32:27Z","content":"Visiting a South Asian sweet shop during Diwali is a joyous and chaotic experience. Lines trail out the door. Employees furiously pack ornate boxes containing laddoos enriched with ghee, spongy rasgu… [+11084 chars]"},{"source":{"id":null,"name":"Business Today"},"author":"Anwesha Madhukalya","title":"Bhavish Aggarwal called teams ‘useless’, directed Punjabi epithets at staff: Report","description":"Bhavish Aggarwal ripped up presentations because of a missing page number, called teams ‘useless’, and directed Punjabi epithets at staff.","url":"https://www.businesstoday.in/latest/corporate/story/bhavish-aggarwal-called-teams-useless-directed-punjabi-epithets-at-staff-report-350250-2022-10-19","urlToImage":"https://akm-img-a-in.tosshub.com/businesstoday/images/story/202210/ola-1200-sixteen_nine.jpg","publishedAt":"2022-10-19T05:20:59Z","content":"Ola co-founder Bhavish Aggarwals management style has raised concerns among managers and board members at Ola Electric, according to a report. His relentless pace and management style has reportedly … [+1969 chars]"},{"source":{"id":null,"name":"Business Today"},"author":"Mehak Agarwal","title":"'Leaders always have a choice': Ola's Bhavish Aggarwal faces social media backlash over work culture allegations","description":"Social media users have criticised Ola co-founder Bhavish Aggarwal for allegedly perpetuating an abrasive style of management.","url":"https://www.businesstoday.in/latest/corporate/story/leaders-always-have-a-choice-olas-bhavish-aggarwal-faces-social-media-backlash-over-work-culture-allegations-350281-2022-10-19","urlToImage":"https://akm-img-a-in.tosshub.com/businesstoday/images/story/202210/bhavish-ola-sixteen_nine_0.jpg","publishedAt":"2022-10-19T07:38:21Z","content":"After reports of abrasive style of management at Ola, netizens have criticised co-founder Bhavish Aggarwal. Experts such as the former Director of Product Management at NASSCOM Saurabh Saha and visit… [+4027 chars]"},{"source":{"id":null,"name":"Quartz India"},"author":"Niharika Sharma","title":"Has the pressure to perform turned Ola Electric into a toxic workplace? - Quartz","description":"Angry outbursts and bizarre and ruthless punishments are giving Bhavish Aggarwal's company a bad name.","url":"https://qz.com/bhavish-aggarwal-is-turning-ola-electric-toxic-employer-1849675814","urlToImage":"https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/6d516ce01c04456799387d56d3c12b0b.jpg","publishedAt":"2022-10-19T06:15:00Z","content":"The work culture at Softbank-backed Ola Electric is grabbing some attention it didnt need. \r\nEmployees of Ola Electric have revealed that the work culture at the five-year-old company has turned host… [+1936 chars]"},{"source":{"id":null,"name":"Rediff.com"},"author":"Rediff Movies","title":"Is Nushrratt feeling the heat?","description":"The stars Rediff.com Contributing Photographer Pradeep Bandekar sighted on Tuesday.","url":"https://www.rediff.com/movies/report/is-nushrratt-feeling-the-heat/20221019.htm","urlToImage":"https://im.rediff.com/movies/2022/oct/19spotted1.jpg","publishedAt":"2022-10-19T10:36:40Z","content":"The starsRediff.com Contributing Photographer Pradeep Bandekar sighted on Tuesday.\r\nAkshay Kumar goes all out to promote his Diwali release, Ram Setu, directed by Abhishek Sharma.\r\nThe actor plays at… [+866 chars]"},{"source":{"id":null,"name":"Complex"},"author":"Louis Pavlakos","title":"Brampton Punjabi and Rap Scenes Unite on Varinder Brar and Gustavo Guaapo's \"Mashook\"","description":"The Punjabi hip-hop scene in Brampton is getting louder every day. Rapper Varinder Brar teamed up with fellow Brampton-native Gustavo Guaapo on \"Mashook.\"","url":"https://www.complex.com/music/varinder-brar-gustavo-guaapo-mashook","urlToImage":"https://images.complex.com/complex/images/c_crop,h_1550,w_1760,x_34,y_950/c_fill,f_auto,g_center,w_1200/fl_lossy,pg_1/oq3zbcrvun3v4mo1meub/varinder-brar-gustavo-guaapo","publishedAt":"2022-10-19T21:09:33Z","content":"The Punjabi hip-hop scene in Brampton is getting louder every day. Rapper Varinder Brar teamed up with fellow Brampton native Gustavo Guaapo on their celebratory new single “Mashook.”\r\nThe single, in… [+1086 chars]"},{"source":{"id":null,"name":"Visual.ly"},"author":"aslipunjabiadda","title":"Soul Mate Matching Couple T Shirt – Punjabi Adda","description":"Couples Apparel helps you stay in love. We offer custom matching couple t shirt like soulmate, which are an awesome gift idea for newlyweds, anniversa","url":"https://visual.ly/community/Infographics/lifestyle/soul-mate-matching-couple-t-shirt-%E2%80%93-punjabi-adda","urlToImage":"https://i.visual.ly/images/soul-mate-matching-couple-t-shirt--punjabi-adda_634f9bae92db6_w250_h250.jpg","publishedAt":"2022-10-19T06:39:42Z","content":"SKUL PUNJABI ADDA Kolil·lox MATE FABRIC WEIGHT : 4.2 01 03 SIDE - SEAMED 05 100 % COMBED AND RING - SPUN COTTON 02 04 SHOULDER - TO -SHOULDER TAPING 180 GSM DOUBLE BIO WASH BEST MATCH SOUL MATE COUPL… [+41 chars]"}]
     constructor(){
     super();
     this.state={
@@ -51,24 +12,58 @@ export class News extends Component {
     }
   }
 
+async componentDidMount(){
+    console.log("cdm");
+    let url = "https://newsapi.org/v2/everything?q=punjab&from=2022-09-20&sortBy=publishedAt&apiKey=4161f6768d57497f98872603ea2424c3";
+    let data = await fetch(url);
+    let parsedData = await data.json()
+    console.log(parsedData);
+    this.setState({ articles: parsedData.articles })
+}
+// handleNextClick = async ()=>{
+//     console.log("Next");
+//     if (this.state.page + 1 > Math.ceil(this.state.totalResults / 20)) {
+//     }
+//     else {
+//         let url = `https://newsapi.org/v2/everything?q=punjab&from=2022-09-20&sortBy=publishedAt&apiKey=4161f6768d57497f98872603ea2424c3&page=${this.state.page + 1}&pageSize=20`;
+//         let data = await fetch(url);
+//         let parsedData = await data.json()
+//         console.log(parsedData);
+//         this.setState({
+//             page: this.state.page + 1,
+//             articles: parsedData.articles
+//         })
+//     }
+// }
+// handlePrevClick = async ()=>{
+//     console.log("Previous");
+//     let url = `https://newsapi.org/v2/everything?q=punjab&from=2022-09-20&sortBy=publishedAt&apiKey=4161f6768d57497f98872603ea2424c3&page=${this.state.page - 1}&pageSize=20`;
+//     let data = await fetch(url);
+//     let parsedData = await data.json()
+//     console.log(parsedData);
+//     this.setState({
+//         page: this.state.page - 1,
+//         articles: parsedData.articles
+//     })
+// }
   render() {
     return (
       <div className='container my-3'>
         <h2>News- top Headlines</h2>
         <div className="row">
-          <div className="col-md-4">
-            <NewsItem title="myTitle" description="my des" imageUrl="https://www.reuters.com/resizer/e-rtKXHJBMDr3n3yPuzMmaBrXaE=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/62VXJFTHEZNRZM4CO6PTL5CS3A.jpg" news=""/>
-          </div>
-          <div className="col-md-4">
-            <NewsItem title="myTitle" description="my des"/>
-          </div>
-          <div className="col-md-4">
-            <NewsItem title="myTitle" description="my des"/>
-          </div>
-          </div>
-      
+    {this.state.articles.map((element)=>{
+    return <div className="col-md-4" key={element.url}>
+        <NewsItem title={element.title?element.title.slice(0, 45):""}
+            description={element.description?element.description.slice(0, 88):""} imageUrl={element.urlToImage}
+            newsUrl={element.url} />
+    </div>
+    })}
+    </div>
+      <div className='container d-flex justify-content-between'>
+          <button disabled={this.state.page<=1} type="button" class="btn btn-outline-primary"> &larr; Previous</button>
+          <button disabled={this.state.page>=3} type="button" class="btn btn-outline-primary" >Next &rarr;</button>
       </div>
-      
+      </div>
     )
   } 
 }
